@@ -1,6 +1,6 @@
 # MERN Authentication Starter
 
-This is a starter app for a MERN stack application with authentication. This is for a SPA (Single Page Application) workflow that uses the [Vite](https://vite.dev) Build tool. This authentication workflow is based on my learnings from a blog post that provided insights into, Why to use the react-redux toolkit and [Vite](https://vite.dev).
+This is a starter app for a MERN stack application with authentication and redux-toolkit. This is for a SPA (Single Page Application) workflow that uses the [Vite](https://vite.dev) Build tool. This authentication workflow is based on my learnings from a blog post that provided insights into, Why to use the react-redux toolkit and [Vite](https://vite.dev).
 
 It includes the following:
 
