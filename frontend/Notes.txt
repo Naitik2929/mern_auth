@@ -1,0 +1,27 @@
+after backend
+npm create vite@latest
+after that install dep in frontend
+
+server: {
+    port: 3000,
+    proxy: {
+      // insted of http:localhost/3000 when ever this is /api
+      "/api": {
+        target: "http://localhost:3000",
+        changeOrigin: true,
+      },
+    },
+  } 
+  added this in config
+  npm i concurrently to run both backend and fronted both from root 
+  "client": "npm run dev --prefix frontend",
+    "dev": "concurrently \"npm run server \" \"npm run client\""
+
+  files that i delete
+  App.css
+
+we have app.jsx do nothing in main.jsx
+install bootstrap
+npm i react-bootstrap react-icons
+npm i bootstrap
+import "bootstrap/dist/css/bootstrap.min.css"; in main.jsx
